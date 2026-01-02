@@ -18,7 +18,7 @@ TENOR_TO_ID = {
 
 TBILLS = {1 / 12: "DGS1MO", 0.25: "DGS3MO"}
 
-DATA_DIR = Path(__file__).parent.parent / "rates" / "processed"
+DATA_DIR = Path(__file__).parent.parent / "data" / "rates" / "processed"
 fred = Fred(api_key=os.getenv("FRED_API_KEY"))
 
 

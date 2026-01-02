@@ -32,7 +32,7 @@ COUPON_FRED = 2
 DAY_CONVENTION = "ACT/ACT"
 
 
-DATA_DIR = Path("../rates/processed")
+DATA_DIR = Path("../data/rates/processed")
 
 
 class ZeroRatesEngine:
